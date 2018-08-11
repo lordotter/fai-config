@@ -3,7 +3,7 @@ disk_config disk1 disklabel:gpt fstabkey:label bootable:1 always_format:all alig
 primary /boot 500MiB ext4 rw
 primary /boot/efi 50MiB- vfat rw
 
-disc_config disk2
+disk_config disk2
 raw-disk - 0- - -
 
 disk_config lvm always_format:all 
