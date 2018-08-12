@@ -1,0 +1,6 @@
+#! /bin/bash
+
+
+fcopy -iv /etc/apt/sources.list.d/plexmediaserver.list
+
+exit $error
