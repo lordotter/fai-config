@@ -1,0 +1,7 @@
+PACKAGES install LORDOTTER_DEFAULT
+vim
+htop
+iftop
+iotop
+ca-certificates
+
