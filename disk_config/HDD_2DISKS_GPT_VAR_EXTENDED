@@ -9,7 +9,7 @@ raw-disk - 0- - -
 disk_config lvm always_format:all 
 vg vg_%%HOSTNAME%%  disk2
 vg_%%HOSTNAME%%-root / 10GiB ext4 rw,noatime,errors=remount-ro createopts="-L rootfs"
-vg_%%HOSTNAME%%-tmp /tmp 10GiB ext4 rw,noatime createopts="-L tmp"
+#vg_%%HOSTNAME%%-tmp /tmp 10GiB ext4 rw,noatime createopts="-L tmp"
 vg_%%HOSTNAME%%-swap swap RAM:150% swap rw
 vg_%%HOSTNAME%%-var /var 10GiB-100GiB ext4 rw,noatime createopts="-L var"
 vg_%%HOSTNAME%%-varlog /var/log 10GiB ext4 rw,noatime createopts="-L var_log"
