@@ -1,0 +1,10 @@
+PACKAGES install UNIFI
+unifi
+binutils
+coreutils
+libcap2
+curl
+mongodb-org-server
+java8-runtime-headless
+jsvc
+

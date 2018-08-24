@@ -1,0 +1,3 @@
+PACKAGES install QEMU_AGENT
+qemu-guest-agent
+
