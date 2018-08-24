@@ -1,0 +1,7 @@
+#!/bin/bash
+
+if [ ! -e $target/root/.ssh ]; then
+	mkdir -p $target/root/.ssh
+fi
+chmod 644 $target/root/.ssh/authorized_keys
+ainsl -asvD /root/.ssh/authorized_keys
