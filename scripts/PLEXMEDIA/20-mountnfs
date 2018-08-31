@@ -1,5 +1,5 @@
 #!/bin/bash
 
-ainsl /etc/fstab "users.lordotter.de:/home/filme  $PLEXMEDIA/users-movie	nfs	ro	0	0"
-ainsl /etc/fstab "users.lordotter.de:/home/musik  $PLEXMEDIA/users-music	nfs	ro	0	0"
+ainsl /etc/fstab "users.lordotter.de:/home/filme  $PLEXMEDIAPATH/users-movie	nfs	ro	0	0"
+ainsl /etc/fstab "users.lordotter.de:/home/musik  $PLEXMEDIAPATH/users-music	nfs	ro	0	0"
 

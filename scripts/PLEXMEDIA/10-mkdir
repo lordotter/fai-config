@@ -1,7 +1,7 @@
 #!/bin/bash
 
-mkdir -p $PLEXMEDIA/users-movie
-mkdir -p $PLEXMEDIA/users-movie-non
-mkdir -p $PLEXMEDIA/users-music
-mkdir -p $PLEXMEDIA/users-audiobook
+mkdir -p $PLEXMEDIAPATH/users-movie
+mkdir -p $PLEXMEDIAPATH/users-movie-non
+mkdir -p $PLEXMEDIAPATH/users-music
+mkdir -p $PLEXMEDIAPATH/users-audiobook
 
